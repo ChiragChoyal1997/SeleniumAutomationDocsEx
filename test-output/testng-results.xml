@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Flipkart" duration-ms="64001" started-at="2019-09-26T11:17:26Z" finished-at="2019-09-26T11:18:30Z">
+    <groups>
+    </groups>
+    <test name="DempTest" duration-ms="61407" started-at="2019-09-26T11:17:26Z" finished-at="2019-09-26T11:18:28Z">
+      <class name="Automation.Selenium.Demo">
+        <test-method status="PASS" signature="browser()[pri:0, instance:Automation.Selenium.Demo@df27fae]" name="browser" duration-ms="13938" started-at="2019-09-26T11:17:27Z" finished-at="2019-09-26T11:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="cart()[pri:0, instance:Automation.Selenium.Demo@df27fae]" name="cart" duration-ms="27758" started-at="2019-09-26T11:17:41Z" finished-at="2019-09-26T11:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="PASS" signature="sikuliMethod()[pri:0, instance:Automation.Selenium.Demo@df27fae]" name="sikuliMethod" duration-ms="19573" started-at="2019-09-26T11:18:08Z" finished-at="2019-09-26T11:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliMethod -->
+      </class> <!-- Automation.Selenium.Demo -->
+    </test> <!-- DempTest -->
+    <test name="OrderCreation" duration-ms="64001" started-at="2019-09-26T11:17:26Z" finished-at="2019-09-26T11:18:30Z">
+      <class name="Automation.Selenium.Flipkart">
+        <test-method status="PASS" signature="browser()[pri:0, instance:Automation.Selenium.Flipkart@18bf3d14]" name="browser" duration-ms="14033" started-at="2019-09-26T11:17:27Z" finished-at="2019-09-26T11:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="cart()[pri:0, instance:Automation.Selenium.Flipkart@18bf3d14]" name="cart" duration-ms="38610" started-at="2019-09-26T11:17:41Z" finished-at="2019-09-26T11:18:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method status="FAIL" signature="sikuliMethod()[pri:0, instance:Automation.Selenium.Flipkart@18bf3d14]" name="sikuliMethod" duration-ms="7144" started-at="2019-09-26T11:18:19Z" finished-at="2019-09-26T11:18:26Z">
+          <exception class="org.sikuli.script.FindFailed">
+            <message>
+              <![CDATA[can not find P(C:/Users/Ankush/Desktop/Selenium Data/doc/searchBox.PNG) S: 0.7 in S(0)[0,0 1366x768]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[FindFailed: can not find P(C:/Users/Ankush/Desktop/Selenium Data/doc/searchBox.PNG) S: 0.7 in S(0)[0,0 1366x768]
+  Line 2189, in file Region.java
+
+at org.sikuli.script.Region.handleFindFailedShowDialog(Region.java:2189)
+at org.sikuli.script.Region.handleFindFailed(Region.java:2134)
+at org.sikuli.script.Region.wait(Region.java:2546)
+at org.sikuli.script.Region.find(Region.java:2205)
+at org.sikuli.script.Region.getLocationFromTarget(Region.java:3067)
+at org.sikuli.script.Region.click(Region.java:3534)
+at org.sikuli.script.Region.click(Region.java:3519)
+at Automation.Selenium.Flipkart.sikuliMethod(Flipkart.java:55)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.sikuli.script.FindFailed -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sikuliMethod -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Automation.Selenium.Flipkart@18bf3d14]" name="closeBrowser" is-config="true" duration-ms="4054" started-at="2019-09-26T11:18:26Z" finished-at="2019-09-26T11:18:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Automation.Selenium.Flipkart -->
+    </test> <!-- OrderCreation -->
+  </suite> <!-- Flipkart -->
+</testng-results>
